@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Watch Together</title>
+    <link rel="shortcut icon" href="download.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Box icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Swiper  css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-movie-play'></i> Movies
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- menue -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#coming">Coming soon </a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+        <a href="#" class="btn">Subscribe</a>
+    </header>
+
+
+
+    <!-- Home section -->
+
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="spider-man-no-way-home-2021-movies-marvel-comics-2560x1080-6992.jpg" alt="">
+                <div class="home-text">
+                    <span>Marvel Studio</span>
+                    <h1>Spideman: <br> No Way Home</h1>
+                    <a href="#" class="btn"><i class='bx bx-play-circle'></i>Watch Now</a>
+                    <a href="#" class="download">Download
+                        <i class='bx bxs-download'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Box 2 -->
+
+            <div class="swiper-slide container">
+                <img src="wp5226953.jpg" alt="">
+                <div class="home-text">
+                    <span>Marvel Studio</span>
+                    <h1>Avengers <br>Endgame</h1>
+                    <a href="#" class="btn"><i class='bx bx-play-circle'></i>Watch Now</a>
+                    <a href="#" class="download">Download
+                        <i class='bx bxs-download'></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- box 3 -->
+            <div class="swiper-slide container"><img src="20523118.jpg" alt="">
+                <div class="home-text">
+                    <span>Marvel Studio</span>
+                    <h1>Doctor Strange<br>Multiverse of Madness</h1>
+                    <a href="#" class="btn"><i class='bx bx-play-circle'></i>Watch Now</a>
+                    <a href="#" class="download">Download
+                        <i class='bx bxs-download'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+    <!-- Movies -->
+    <section class="movies" id="movies">
+        <div class="nn" style="margin-left: auto;
+        margin-right: auto; display: flex;border-bottom: 4px solid var(--main-color); max-width: 968px; justify-content: space-between;">
+        <h2 class="heading" id="heads">Opeaning This Week</h2>
+        <select id="selectoptions">
+            <option value="now_playing">Opeaning this week</option>
+            <option value="top_rated">Best Rating</option>
+            <option value="popular">Superhit</option>
+            <option value="upcoming">Blockbuster</option>
+          </select>
+        </div>
+        <!-- movies Container -->
+        <div id="moviesconatiner" class="contain">
+             <!-- data is being fetched -->
+        </div>
+    </section>
+
+    <!-- Coming soon  -->
+    <section class="coming" id="coming">
+        <h2 class="heading1">TV Shows</h2>
+        <!-- coming conatiner -->
+        <div class="swiper mySwiper coming-conatiner">
+            <div class="swiper-wrapper" id="tvshow">
+            <!-- data is being fetched -->
+            </div>
+            <div class="swiper-pagination" style="padding-top: 90px;"></div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe To Get <br>Newsletter</h2>
+        <form action="#">
+            <input type="mail" class="mail" placeholder="Enter Email..." required>
+            <input type="submit" value="subscribe" class="btn">
+        </form>
+    </section>
+<!-- footer -->
+<section class="footer">
+    <a href="#" class="logo"><i class='bx bxs-movie-play'></i> Movies
+    </a>
+    <div class="social">
+        <a href="#"> <i class="bx bxl-facebook"></i> </a>
+        <a href="#"> <i class="bx bxl-twitter"></i> </a>
+        <a href="#"> <i class="bx bxl-instagram"></i> </a>
+        <a href="#"> <i class="bx bxl-whatsapp"></i> </a>
+    </div>
+</section>
+
+<!-- copyright -->
+<div class="copyright">
+    <p>&#169; Shivan All Right Reserved.</p>
+</div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- custom js -->
+    <script src="main.js"></script>
+</body>
+
+
+</html>
